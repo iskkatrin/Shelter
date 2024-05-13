@@ -13,4 +13,6 @@ public interface ReportRepository extends JpaRepository<Report, Long> {
     List<Report> findByPetId(long id);
 
     List<Report> findAllByIsChecked(boolean isChecked);
+
+
 }
